@@ -8,13 +8,13 @@ public class Booster {
 
     private final String id;
     private final BoosterType boosterType;
-    private final int multiplier;
+    private final double multiplier;
     private final int duration;
 
     public Booster(String id, ConfigurationSection section){
         this.id = id;
         this.boosterType = BoosterType.valueOf(Objects.requireNonNull(section.getString("type")).toUpperCase());
-        this.multiplier = section.getInt("multiplier");
+        this.multiplier = section.getDouble("multiplier");
         this.duration = section.getInt("duration");
     }
 
@@ -26,7 +26,7 @@ public class Booster {
         return boosterType;
     }
 
-    public int getMultiplier() {
+    public double getMultiplier() {
         return multiplier;
     }
 
