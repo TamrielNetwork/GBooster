@@ -76,7 +76,7 @@ This plugin is perfect for any server wishing to receive donations from their pl
 ### Built With
 
 * [Gradle 6](https://docs.gradle.org/6.8.3/release-notes.html)
-* [OpenJDK 11](https://sourceforge.net/projects/openjdk11/)
+* [OpenJDK 16](https://papermc.io/forums/t/java-16-mc-1-17-and-paper/5615)
 
 
 <!-- GETTING STARTED -->
