@@ -5,10 +5,10 @@ plugins {
 }
 
 group = 'com.tamrielnetwork.gbooster'
-version = '1.0.9'
+version = '1.0.10'
 
-sourceCompatibility = '1.8'
-targetCompatibility = '1.8'
+sourceCompatibility = '16'
+targetCompatibility = '16'
 
 repositories {
     mavenCentral()
@@ -35,7 +35,7 @@ repositories {
 }
 
 dependencies {
-    compileOnly 'com.destroystokyo.paper:paper-api:1.16.5-R0.1-SNAPSHOT'
+    compileOnly 'com.destroystokyo.paper:paper-api:1.17.1-R0.1-SNAPSHOT'
     implementation 'com.github.Zrips:Jobs:4.17.2'
     implementation 'com.gmail.nossr50.mcMMO:mcMMO:2.1.175-SNAPSHOT'
     compileOnly 'me.clip:placeholderapi:2.10.9'
