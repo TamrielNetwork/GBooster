@@ -28,7 +28,7 @@ public class BoosterExpansion extends PlaceholderExpansion {
 
     @Override
     public @NotNull String getVersion(){
-        return "1.0.9";
+        return "1.0.10"; // Why not use project.version smh
     }
 
     @Override
